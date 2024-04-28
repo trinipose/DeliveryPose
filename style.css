@@ -19,7 +19,7 @@ box-sizing: border-box;
   font-size: 20px;} }
 
 header {width: 100%;
-height: 7vw;
+height: 7vw; /*It used to be taller (10vw) but now I've adjusted and for some reason even though it shows uodated in the Github, it doesn't update when i click the link/inspect */
 background-color: #76A0FA;}
 
 #head {display:inline;
