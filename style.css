@@ -1,6 +1,8 @@
 
 
-/*Please look at notes regarding em vs vw font sizes on h1 and h2*/
+/*Please look at notes regarding em vs vw font sizes on h1 and h2. 
+I wanted to follow the assignment but with em I am not able to open it on mobile with the sizing adjusting. 
+That's why I used vw in the rest of the font sizes.*/
 
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap);
 
@@ -9,6 +11,7 @@
 * {margin: 0;
 padding: 0;
 box-sizing: border-box;
+scroll: smooth;
 }  
 
 @media (max-width: 768px)
@@ -19,7 +22,7 @@ box-sizing: border-box;
   font-size: 20px;} }
 
 header {width: 100%;
-height: 7vw; /*It used to be taller (10vw) but now I've adjusted and for some reason even though it shows uodated in the Github, it doesn't update when i click the link/inspect */
+height: 7vw;
 background-color: #76A0FA;}
 
 #head {display:inline;
